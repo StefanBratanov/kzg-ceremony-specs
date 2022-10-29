@@ -73,7 +73,7 @@
                 },
                 "bls_signature": {
                     "anyOf": [
-                        {"$ref": "#/$defs/G1Point"},
+                        {"$ref": "#/$defs/G2Point"},
                         {"$ref": "#/$defs/emptyString"}
                     ]
                 }
@@ -127,7 +127,7 @@
                 },
                 "bls_signature": {
                     "anyOf": [
-                        {"$ref": "#/$defs/G1Point"},
+                        {"$ref": "#/$defs/G2Point"},
                         {"$ref": "#/$defs/emptyString"}
                     ]
                 }
@@ -182,7 +182,7 @@
                 },
                 "bls_signature": {
                     "anyOf": [
-                        {"$ref": "#/$defs/G1Point"},
+                        {"$ref": "#/$defs/G2Point"},
                         {"$ref": "#/$defs/emptyString"}
                     ]
                 }
@@ -237,7 +237,7 @@
                 },
                 "bls_signature": {
                     "anyOf": [
-                        {"$ref": "#/$defs/G1Point"},
+                        {"$ref": "#/$defs/G2Point"},
                         {"$ref": "#/$defs/emptyString"}
                     ]
                 }
